@@ -20,7 +20,6 @@ public class Anagram {
                 .filter(group -> group.size() > 1)
                 .flatMap(Collection::stream)
                 .toList();
-//                .forEach(System.out::println);
     }
 
     private static List<String> getAnagramTwo(List<String> str) {
